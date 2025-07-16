@@ -14,7 +14,7 @@
 
 # Update only after new version of deploy/base/Dockerfile change has built
 ARG GANESHA_VERSION=V6.5
-ARG GH_ORGANIZATION=kubernetes-sigs
+ARG GH_ORGANIZATION=logichard
 
 FROM ghcr.io/${GH_ORGANIZATION}/nfs-ganesha:${GANESHA_VERSION}
 
